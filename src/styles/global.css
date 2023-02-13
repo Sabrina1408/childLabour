@@ -27,7 +27,14 @@ html {
 }
 h3 {
     margin-bottom: 17px;
+    font-family: var(--principal);
+    font-size: min(32px, 5vw);
+}
+.h3-margin {
+    padding-top: 45px;
 }
 p {
+    font-family: var(--secondary);
     text-indent: 10px;
+    font-size: min(24px, 5vw);
 }

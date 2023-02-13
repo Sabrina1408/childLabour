@@ -15,7 +15,7 @@
     width: 100%;
     top: 75px;
     right: 0;
-    background-color: var(--gray-400);
+    background-color: var(--bg-a);
     height: 0;
     transition: .6s;
     z-index: 1000;
@@ -30,9 +30,18 @@
   }
   #nav menu li {
     margin: 5%;
-    border-bottom: 2px solid var(--white-100);
+    border-bottom: 2px solid var(--txt-bg-b);
   }
+  /* Poverty */
   #poverty div:first-child img {
+    width: 100%;
+  }
+}
+@media (max-width: 1060px) {
+  #poverty {
+    flex-direction: column;
+  }
+  #poverty div:last-child {
     width: 100%;
   }
 }

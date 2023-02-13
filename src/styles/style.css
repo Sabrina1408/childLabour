@@ -2,7 +2,6 @@
 header {
     background-color: var(--bg-a);
     padding: 5px 5%;
-    box-shadow: 3px 4px 4px black; /* not working */
 }
 header nav {
     display: flex;
@@ -47,28 +46,22 @@ header nav.active div menu {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;  */
 }
 #labour div {
     position: absolute;
 }
 #labour div h1 {
-    font-size: min(128px, 10vw); /* 128px */
+    font-size: min(128px, 10vw);
     font-family: var(--principal);
     color: var(--txt-bg-b);
 }
 #labour div blockquote {
-    font-size: min(32px, 5vw); /* 32px */
+    font-size: min(32px, 5vw);
     font-family: var(--secondary);
     color: var(--txt-bg-b);
     max-width: 883px;
 }
 #labour img {
-    display: none;
     max-width: 100vw;
 }
 
@@ -84,24 +77,157 @@ header nav.active div menu {
     width: 50%;
 }
 #poverty div:first-child img {
+    padding: 40px 0;
     margin: 0 auto;
     display: block;
 }
 #poverty div:last-child {
     background-color: var(--bg-a);
     height: 100%;
-    padding: 90px 125px;
-}
-#poverty div:first-child h3 {
-
+    padding: 90px 10%;
+    width: 50%;
 }
 #poverty div:last-child h3 {
     color: var(--txt-bg-b);
-    font-size: min(32px, 5vw);
 }
 #poverty div:last-child p {
     color: var(--txt-bg-b);
-    font-size: min(24px, 5vw);
-    margin-bottom: 45px;
-    max-width: 319px; /* media sem */
+}
+
+/* Child labour */
+#childLabour {
+    background-color: var(--txt-bg-b);
+    margin: 90px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#childLabour h3 {
+    color: var(--txt-c);
+}
+#childLabour p {
+    max-width: 1011px;
+}
+#childLabour section:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 5%;
+    flex-wrap: wrap;
+}
+#childLabour section:first-child div {
+    width: 401px;
+}
+#childLabour section img {
+    border-radius: 15px;
+}
+#childLabour section:last-child {
+    margin: 80px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+#childLabour section:last-child iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Countries */
+#countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: var(--bg-a);
+    padding: 121px 5%;
+    flex-wrap: wrap;
+}
+#countries div {
+    max-width: 623px;
+}
+#countries h3 {
+    color: var(--txt-bg-b);
+}
+#countries p {
+    color: var(--txt-bg-b);
+}
+
+/* Solution */
+#solution {
+    background-color: var(--txt-bg-b);
+    margin: 60px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#solution h3 {
+    text-align: left;
+    color: var(--txt-c);
+}
+#solution p {
+    color: var(--txt-c);
+    max-width: 838px;
+}
+
+/* Bibliography */
+#bibliography {
+    background-color: var(--bg-a);
+    padding: 60px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bibliography h3 {
+    color: var(--txt-bg-b);
+}
+#bibliography p {
+    color: var(--txt-bg-b);
+    max-width: 883px;
+}
+#bibliography a {
+    font-family: var(--secondary);
+    color: var(--txt-bg-b);
+}
+#bibliography a:hover {
+    transition: ease-in-out .2s;
+    text-shadow: 0 0 5px var(--txt-bg-b);
+}
+
+/* arrowUp */
+#arrowUp {
+    background-color: var(--txt-c);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    content: "";
+    transition: ease-in-out .2s;
+    box-shadow: 3px 3px 10px #000000;
+}
+#arrowUp a {
+    padding: 10px;
+}
+#arrowUp:hover{
+    background-color: #1d1d1d;
+    transition: ease-in-out .2;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+}
+footer a {
+    color: var(--txt-c);
+}
+#bibliography a:hover {
+    transition: ease-in-out .2s;
+    text-shadow: 0 0 5px var(--txt-c);
 }
