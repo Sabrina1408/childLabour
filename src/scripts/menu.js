@@ -1,6 +1,7 @@
 let btnMobile = document.querySelector("#btnMobile");
 let btnMobileLiA = document.querySelectorAll(".btn-mobile-li-a");
 let header = document.querySelector("#header");
+let body = document.querySelector("body");
 
 
 btnMobile.addEventListener("click", toggleMenu);

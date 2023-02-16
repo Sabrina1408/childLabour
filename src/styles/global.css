@@ -1,6 +1,5 @@
 @import url('style.css');
 @import url('media.css');
-@import url('fonts.css');
 
 :root {
     /* Brown */
@@ -21,6 +20,9 @@
     list-style: none;
     text-decoration: none;
     border: none;
+}
+body {
+    width: 100%;
 }
 html {
     scroll-behavior: smooth;
