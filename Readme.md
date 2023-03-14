@@ -7,7 +7,7 @@
     <a href="https://sabrina1408.github.io/childLabour/" target="_blank">Link do site</a>
   </li>
   <li>
-    <a href="https://sabrinaalves.tk" target="_blank">Meu portfólio</a>
+    <a href="https://sabrinaalvesbrito.com.br" target="_blank">Meu portfólio</a>
   </li>
 </ul>
 <h2>👽 Status - Fazendo</h2>
